@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portflio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="./images/brand-icon.png"/>
+
+    <!-- Font awesome CND -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <header class="header">
+            <div class="container">
+              <nav class="nav">
+                <a href="index.html" class="logo">
+                  <img src="./images/brand-icon.png" alt="">
+                </a>
+                <!-- Menu -->
+                <div class="hamburger-menu">
+                  <i class="fas fa-bars"></i>
+                  <i class="fas fa-times"></i>
+                </div>
+                <!-- Menu-item -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                    <a href="#home"class="nav-link">Hello.World</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#about"class="nav-link">About.me</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#contact"class="nav-link">Contact.me</a>
+                    </li>
+                </ul>
+              </nav>
+            </div>
+    </header>
+
+
+    <!-- Main -->
+    <main>
+    <!-- Hero section -->
+    <section id="home">
+        <div class="container-hero">
+            <div class="container-text">
+                <div class="main-heading">
+                    <h1 class="animate__animated animate__slideInDown">MOBILE<br>WEB &</h1>
+                </div>
+                <ul class="language-list">
+                    <li class="language-item">
+                        <a href="ios" class="language-link">iOS</a>
+                    </li>
+                    <li class="language-item">
+                        <a href="html" class="language-link">HTML</a>
+                    </li>
+                    <li class="language-item">
+                        <a href="css" class="language-link">CSS</a>
+                    </li>
+                    <li class="language-item">
+                        <a href="js" class="language-link">JS</a>
+                    </li>
+                </ul>
+                <div class="btn-cta-hero">
+                    <a href="#contact" class="btn-cta">WATCH MORE •••</a>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="image-container">
+                    <div class="img">
+                        <img class="animate__animated animate__slideInRight" src="./images/hero-background.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section -->
+    <section id="about">
+        <div class="container-about">
+            <div class="left-terminal">
+                <div class="title">
+                    <h2 class="animate__animated animate__fadeIn">
+                        about
+                    </h2>
+                </div>
+            </div>
+            <div class="right-terminal">
+                <div class="title">
+                    <h2 class="animate__animated animate__fadeIn">
+                        skills
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section -->
+    <section id="contact" class="contact">
+        <div class="container">
+          <h5 class="section-head">
+            <span class="heading">Contact.me</span>
+          </h5>
+          <div class="contact-content">
+            <form action="" class="form contact-form">
+              <div class="input-group-wrap">
+                  <!-- Name form -->
+                <div class="input-group">
+                  <input id="name" type="text" class="input" placeholder="Nom" required>
+                    <span class="bar"></span>
+                  </div>
+                  <!-- Email form -->
+                <div class="input-group">
+                  <input id="mail" type="email" class="input" placeholder="E-mail" required>
+                    <span class="bar"></span>
+                </div>
+              </div>
+                <!-- Subject form -->
+                <div class="input-group">
+                  <input id="selectList" type="text" class="input" placeholder="Objet" required>
+                    <span class="bar"></span>
+                </div>
+              <!-- textarea form -->
+                <div class="input-group">
+                  <textarea id="message" class="input" cols="30" rows="8" placeholder="Message" required></textarea>
+                  <span class="bar"></span>
+                </div>
+
+                <!-- Button form -->
+              <a href="mailto:contact@overtdose.com" type="submit" class="btn form-btn btn-purple">Envoyer
+              </a>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-heading">
+          <h3>Follow.me</h3>
+        </div>
+        <div class="social-media-container">
+          <div class="sm-link">
+            <a id="github" href="#"><span class="fab fa-github"></span></a>
+            <a id="facebook" href="#"><span class="fab fa-facebook-f"></span></a>
+            <a id="twitter" href="#"><span class="fab fa-twitter"></span></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Cookies -->
+    <div class="cookie-container">
+        <p>
+            Ce site Web utilise des cookies pour vous garantir la meilleure expérience sur notre site Web.<a id="cookies" href="#"> En savoir plus</a>.
+        </p>
+        <button class="cookie-btn">
+            Okay
+        </button>
+    </div>
+
+    <!-- js script -->
+    <script src="main.js"></script>
+</body>
+</html>

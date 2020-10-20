@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="446px" height="414px" viewBox="0 0 446 414" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>back-hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-5.7%" y="-1.8%" width="109.5%" height="107.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="7.40958726" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="57.944387%" y1="107.17809%" x2="29.9243187%" y2="-32.8419663%" id="linearGradient-2">
+            <stop stop-color="#202020" offset="0%"></stop>
+            <stop stop-color="#9FF6E4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-994.000000, -315.000000)">
+            <g id="hero-section-01" transform="translate(0.000000, 107.000000)">
+                <g id="Stacked-Group" transform="translate(484.000000, 200.000000)">
+                    <g id="hero-background" transform="translate(513.000000, 0.000000)">
+                        <g id="back-hero" transform="translate(0.647510, 0.320635)">
+                            <path d="M207.061823,27.9126214 L373.215648,147.704435 C388.917545,159.025021 395.489719,179.204405 389.466232,197.600678 L323.927452,397.762023 C317.945756,416.030662 300.900115,428.385527 281.677111,428.385527 L79.0817673,428.385527 C55.3282042,428.385527 35.7706851,409.712754 34.671839,385.984621 L25.3827509,185.399015 C24.8293309,173.448639 29.1155104,161.779534 37.2727088,153.028656 L148.542095,33.6611038 C163.815188,17.276437 188.892448,14.8130595 207.061823,27.9126214 Z" id="shadow" fill="#0C0C0C" filter="url(#filter-1)" transform="translate(212.048686, 216.687857) rotate(-90.000000) translate(-212.048686, -216.687857) "></path>
+                            <path d="M213.692357,-0.911417462 L385.111038,122.546795 C401.315449,134.217446 408.098193,155.036822 401.878248,174.013105 L334.285406,380.230477 C328.11448,399.057206 310.545068,411.787532 290.732797,411.787532 L81.6893215,411.787532 C57.2019746,411.787532 37.0399742,392.538561 35.9059921,368.077485 L26.3258952,161.425648 C25.7543387,149.096628 30.1794227,137.05817 38.5998149,128.034401 L153.397548,5.01065324 C169.139689,-11.8595157 194.968775,-14.3964119 213.692357,-0.911417462 Z" id="img" fill="url(#linearGradient-2)" transform="translate(218.877845, 193.642640) rotate(-90.000000) translate(-218.877845, -193.642640) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
